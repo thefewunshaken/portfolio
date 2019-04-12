@@ -1,0 +1,51 @@
+.phrase-frame {
+  display: inline-block;
+  background: var(--fg-color);
+  margin-right: calc(var(--min-pad) * -1);
+  padding-left: var(--min-pad);
+}
+
+.phrase {
+  /* position: relative; */
+  /* width: inherit; */
+  display: inline-block;
+  z-index: -1;
+  transform-origin: top left;
+  text-transform: uppercase;
+  letter-spacing: var(--sm-leading);
+  color: var(--bg-color);
+  /* animation: var(--hero-text-animation); */
+}
+
+.phrase-change-enter {
+  opacity: 0;
+  transform: translateY(-1em);
+}
+
+.phrase-change-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms ease;
+}
+
+/* .phrase-change-enter-done {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+} */
+
+.phrase-change-exit {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 1s ease;
+}
+
+.phrase-change-exit-active {
+  opacity: 0;
+  transform: translateY(1em);
+}
+
+/* .phrase-change-exit-done {
+  opacity: 0;
+  transform: translateY(1em);
+} */

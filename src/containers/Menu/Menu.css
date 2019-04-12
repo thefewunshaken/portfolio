@@ -1,0 +1,13 @@
+.menu {
+  background-color: var(--fg-color);
+  height: 100vh;
+  width: 100vw;
+  color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--med-margin);
+}

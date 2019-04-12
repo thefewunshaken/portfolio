@@ -1,0 +1,26 @@
+@import url('../../assets/css/vars.css');
+@import url('../../assets/css/typography.css');
+@import url('../../assets/css/media.css');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  /* adding deprecated properties for browsers
+  that only support older spec of scroll-snap */
+  scroll-snap-points-y: repeat(100vh); /* deprecated */
+  scroll-snap-destination: 0 0; /* deprecated */
+  scroll-snap-type: y proximity;
+  scroll-snap-type: proximity; /* for browsers that don't suppory x/y specification */
+  scroll-behavior: smooth;
+}
+
+.app-wrapper > section {
+  padding: var(--min-pad);
+  scroll-snap-align: start;
+}

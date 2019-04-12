@@ -1,0 +1,31 @@
+.content-list {
+  position: relative;
+  display: inline-block;
+  width: max-content;
+  list-style: none;
+  /* left: var(--left); */
+  /* pointer-events: none; */
+}
+
+.content-list > li:first-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-list > li:first-child > h1 {
+  margin-top: 0;
+  margin-left: var(--sm-margin);
+}
+
+.content-list .arrow-icon {
+  pointer-events: fill;
+  position: relative;
+  height: 2.5em;
+  top: 0.75em;
+  fill: var(--brand-color);
+  transition: transform 0.2s ease-out;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}

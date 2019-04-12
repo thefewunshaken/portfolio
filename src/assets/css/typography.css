@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "DIN";
+  font-weight: normal;
+  src: url("../../assets/fonts/din.woff2") format("woff2") url("../../assets/fonts/din.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DIN";
+  font-weight: 900;
+  src: url("../../assets/fonts/din-black.woff2") format("woff2") url("../../assets/fonts/din-black.woff") format("woff");
+}
+
+body, p {
+  font: var(--body-font);
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: var(--head-font);
+}
+
+.App {
+  text-align: right;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--lg-txt);
+  letter-spacing: var(--xl-leading);
+  overflow: hidden;
+  margin-top: var(--sm-margin);
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.content-list > li:nth-child(1) {
+  color: var(--li-1);
+}
+
+.content-list > li:nth-child(2) {
+  color: var(--li-2);
+}
+
+.content-list > li:nth-child(3) {
+  color: var(--li-3);
+}
+
+.content-list > li:nth-child(4) {
+  color: var(--li-4);
+}
+
+.content-list > li:nth-child(5) {
+  color: var(--li-5);
+}
+
+.content-list > li:nth-child(6) {
+  color: var(--li-6);
+}

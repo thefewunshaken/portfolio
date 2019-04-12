@@ -1,0 +1,73 @@
+/* MOBILE */
+@media screen and (max-width: 450px) {
+  :root {
+    --body-font: 12px "DIN Medium", sans-serif;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .menu > .text-logo {
+    text-align: left;
+    max-width: 30em;
+  }
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1024px) {
+  /* overall */
+  .app-wrapper {
+    display: flex;
+  }
+  
+  .app-wrapper:first-child {
+    flex: 1;
+  }
+  
+  .app-wrapper:nth-child(2) {
+    flex: 3;
+  }
+
+  /* Hero */
+  .hero {
+    width: calc(100vw / var(--golden-ratio) / var(--golden-ratio));
+  }
+
+  /* Menu */
+  .content-wrapper {
+    padding-left: var(--med-margin);
+    /* justify-content: flex-start !important; */
+    margin-top: 0.75em !important;
+  }
+
+  .menu > .text-logo {
+    display: none;
+  }
+
+  /* Project Modal */
+  .project-modal {
+    padding-top: 0 !important;
+    padding-right: 1.25em !important;
+  }
+
+  .project-modal > h1 {
+    margin-top: 0.35em;
+  }
+
+  .project-modal > button.exit {
+    top: 0 !important;
+    left: 0.25em !important;
+  }
+
+  .project-img {
+    margin: var(--lg-margin);
+    max-height: 50vh;
+  }
+}
+
+/* LARGE DESKTOP */
+@media screen and (min-width: 1400px) {
+  .hero {
+    max-width: 600px;
+  }
+}

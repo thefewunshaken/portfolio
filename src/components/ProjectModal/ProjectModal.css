@@ -1,0 +1,64 @@
+.project-modal {
+  position: absolute !important;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  padding-top: var(--lg-margin);
+  padding-right: var(--sm-pad);
+  overflow-x: inherit;
+  background: rgba(20, 20, 0, 0.5);
+  background: var(--project-color);
+  color: white;
+}
+
+.project-modal > p {
+  padding-right: var(--sm-pad);
+  margin-top: var(--sm-margin);
+}
+
+.project-modal > h3 {
+  padding-right: var(--xs-pad);
+  margin-top: var(--sm-margin);
+}
+
+.project-modal > h3 > span {
+  display: inline-block;
+  padding: 0 3px 0 3px;
+  text-transform: uppercase;
+  letter-spacing: var(--sm-leading);
+  background: white;
+  color: var(--project-color);
+}
+
+.project-modal > button.exit {
+  position: absolute;
+  z-index: 500;
+  top: 0.25em;
+  right: 0.25em;
+  background: none;
+  border: none;
+  color: white;
+  font-size: var(--xl-text);
+  cursor: pointer;
+}
+
+.project-modal > button.exit:hover, .project-modal > button.exit:focus {
+  opacity: .5;
+}
+
+.github-logo {
+  position: relative;
+  right: 0.25em;
+  height: 2em;
+  margin-top: var(--sm-margin);
+  cursor: pointer;
+}
+
+.project-img {
+  display: block;
+  margin: var(--med-margin);
+  max-height: 35vh;
+  right: 0.25em;
+}

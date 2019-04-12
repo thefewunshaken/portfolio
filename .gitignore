@@ -11,6 +11,10 @@
 # production
 /build
 
+# personal design assets
+/assets/fonts
+/assets/img
+
 # misc
 .DS_Store
 .env.local

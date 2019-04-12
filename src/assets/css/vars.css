@@ -1,0 +1,45 @@
+:root {
+  /* colors */
+  --brand-color: #55fff2;
+  --bg-color: #000;
+  --fg-color: #fff;
+  --project-color: #000;
+
+  /* li colors */
+  --li-1: #000;
+  --li-2: #555;
+  --li-3: #777;
+  --li-4: #aaa;
+  --li-5: #ccc;
+  --li-6: #eee;
+
+  /* typography */
+  --body-font: 17px "DIN Medium", sans-serif;
+  --head-font: 1em "DIN Black", sans-serif;
+  
+  --sm-leading: 0.1em;
+  --xl-leading: 0.1em;
+
+  /* sizing */
+  --lg-txt: 3em;
+  --xl-text: 5em;
+
+  /* spacing */
+  --sm-margin: 1em;
+  --med-margin: 2em;
+  --lg-margin: 4.7em;
+  --min-pad: 5px;
+  --xs-pad: .25em;
+  --sm-pad: .5em;
+
+  /* distance */
+  --left: 2.5em;
+  --left-offset: -2.5em;
+
+  /* animation */
+  --hero-text-animation: slidedown 7s infinite;
+  --transform: transform 0.5s;
+
+  /* etc */
+  --golden-ratio: 1.61803398875;
+}

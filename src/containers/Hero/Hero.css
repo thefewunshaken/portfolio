@@ -1,0 +1,35 @@
+
+.hero {
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "header header header"
+    "logo logo logo"
+    ". . callout";
+  gap: 10px;
+  align-content: space-between;
+  color: var(--fg-color);
+}
+
+header {
+  grid-area: header;
+}
+
+.hero > .logo {
+  pointer-events: none;
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+  width: 6em;
+}
+
+.callout {
+  position: relative;
+  z-index: 1;
+  grid-area: callout;
+  align-self: end;
+  justify-self: end;
+}

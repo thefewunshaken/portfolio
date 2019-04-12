@@ -1,0 +1,109 @@
+{
+  "pages": [
+    {
+      "id": 0,
+      "title": "projects",
+      "content": [
+        {
+          "title": "Chat App",
+          "color": "#2488D1",
+          "copy": {
+              "header": "Real-Time Chat",
+              "body": "Here's a quick blurb on it",
+              "techUsed": "React, Node.JS, postgreSQL"
+            },
+          "links" : {
+            "project": "https://chat.jkdev.io",
+            "code": "https://github.com/thefewunshaken/react-chat-app",
+            "image": "/src/assets/img/chat-app-sc.png"
+          }
+        },
+        {
+          "title": "Pokedex",
+          "color": "#e24242",
+          "copy": {
+              "header": "Pokefriends",
+              "body": "Quick blurb",
+              "techUsed": "React, Nes.css"
+            },
+          "links" : {
+            "project": "https://thefewunshaken.github.io/pokedex/",
+            "code": "https://github.com/thefewunshaken/pokedex",
+            "image": "url"
+          }
+        },
+        {
+          "title": "Face Detect",
+          "color": "#3CC4EA",
+          "copy": {
+              "header": "All-Seeing Eye",
+              "body": "body",
+              "techUsed": "React, Node, postgreSQL"
+            },
+          "links" : {
+            "project": "https://all-seeing-eye1.herokuapp.com/",
+            "code": "https://github.com/thefewunshaken/all-seeing-eye",
+            "image": "url"
+          }
+        },
+        {
+          "title": "Snake",
+          "color": "#38AF56",
+          "copy": {
+              "header": "Snake.Nes",
+              "body": "body",
+              "techUsed": "React, Node, postgreSQL"
+            },
+          "links" : {
+            "project": "https://thefewunshaken.github.io/Snake/",
+            "code": "https://github.com/thefewunshaken/snake",
+            "image": "url"
+          }
+        },
+        {
+          "title": "Spot Shot",
+          "copy": {
+              "header": "header",
+              "body": "body",
+              "techUsed": "React, Node, postgreSQL"
+            },
+          "links" : {
+            "project": "project",
+            "code": "code",
+            "image": "url"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "code",
+      "content": [
+        {
+          "title": "GitHub"
+        },
+        {
+          "title": "Codepen"
+        },
+        {
+          "title": "Hackerrank"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "contact",
+      "content": [
+        {
+          "title": "placeholder"
+        },
+        {
+          "title": "placeholder"
+        },
+        {
+          "title": "placeholder"
+        }
+      ]
+    }
+  ]
+}
